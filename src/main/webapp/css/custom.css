@@ -5,3 +5,13 @@ body {
 .job .alert {
     padding-bottom: 30px;
 }
+
+.alert-default {
+    background-color: #424242;
+    border-color: #1C1C1D;
+}
+
+.alert-primary {
+    background-color: #2a9fd6;
+    border-color: #1373A0;
+}

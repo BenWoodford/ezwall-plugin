@@ -12,20 +12,25 @@ $(document).ready(function() {
                     case 'notbuilt':
                     case 'grey':
                     case 'disabled':
-                        $(job).addClass('alert-info');
+                        $(job).addClass('alert-default', 'fast');
+                        break;
+
+                    case 'blue_anime':
+                    case 'red_anime':
+                    case 'yellow_anime':
+                        $(job).addClass('alert-primary', 'fast');
                         break;
 
                     case 'blue':
-                        $(job).addClass('alert-success');
+                        $(job).addClass('alert-success', 'fast');
                         break;
 
                     case 'red':
-                    case 'red_anime':
-                        $(job).addClass('alert-danger');
+                        $(job).addClass('alert-danger', 'fast');
                         break;
 
                     case 'yellow':
-                        $(job).addClass('alert-warning');
+                        $(job).addClass('alert-warning', 'fast');
                         break;
                 }
             });
