@@ -12,16 +12,10 @@ $(document).ready(function() {
                 var job = $("#dashboard #" + val.name);
 
                 switch(val.color) {
-                    case 'notbuilt':
-                    case 'grey':
-                    case 'disabled':
-                        $(job).addClass('label-default', 'fast');
-                        break;
-
                     case 'blue_anime':
                     case 'red_anime':
                     case 'yellow_anime':
-                        $(job).addClass('label-primary', 'fast');
+                        $(job).addClass('label-info', 'fast');
                         break;
 
                     case 'blue':
