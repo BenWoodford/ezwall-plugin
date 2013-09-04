@@ -98,6 +98,11 @@ public class EzWallViewAction implements Action, Describable<EzWallViewAction> {
 	public boolean getShowBuildNumber() {
 		return getDescriptor().getShowBuildNumber();
 	}
+
+    @Exported
+    public boolean getBootstrapTheme() {
+        return getDescriptor().getBootstrapTheme();
+    }
 	
 	@Exported
 	public String getVersion() {
@@ -128,6 +133,8 @@ public class EzWallViewAction implements Action, Describable<EzWallViewAction> {
 		
 		private boolean showUsername = false;
 
+        private String bootstrapTheme = "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css";
+
 		@Override
 		public String getDisplayName() {
 			return DISPLAY_NAME;
@@ -139,6 +146,14 @@ public class EzWallViewAction implements Action, Describable<EzWallViewAction> {
 			save();
 			return true;
 		}
+
+        public String getBootstrapTheme() {
+            return bootstrapTheme;
+        }
+
+        public void setBootstrapTheme(String bootstrapTheme) {
+            this.bootstrapTheme = bootstrapTheme;
+        }
 
 		public int getPollInterval() {
 			return pollInterval;
