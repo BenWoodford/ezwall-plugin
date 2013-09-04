@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<j:jelly xmlns:j="jelly:core">
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout"
+         xmlns:t="/lib/hudson" xmlns:f="/lib/form">
 <j:set var="rootURL" value="${request.contextPath}" />
 <html>
   <head>
     <meta charset="utf-8"/>
     <title>BootWall</title>
-    <link href="${bootstrapTheme}" rel="stylesheet" />
+    <link href="${it.bootstrapTheme}" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="${rootURL}/plugin/ezwall/css/custom.css" />  
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
