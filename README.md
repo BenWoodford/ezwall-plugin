@@ -1,5 +1,7 @@
-Jenkins EzWall Plugin
+Jenkins BootWall Plugin
 ============================
+
+EzWall plugin forked and partially rewritten to use Bootstrap for extra pretty.
 
 Read more: [http://wiki.jenkins-ci.org/display/JENKINS/EzWall+Plugin](http://wiki.jenkins-ci.org/display/JENKINS/EzWall+Plugin)
 
