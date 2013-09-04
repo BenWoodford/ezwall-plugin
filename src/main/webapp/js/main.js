@@ -52,5 +52,6 @@ $(document).ready(function() {
                 }
             });
         }
-    setInterval("getJobs()", 5000);
+        getJobs();
+        setInterval(getJobs(, 3000);
 });
