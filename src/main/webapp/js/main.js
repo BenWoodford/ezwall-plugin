@@ -12,8 +12,6 @@ $(document).ready(function() {
 
                         var job = $("#dashboard #" + val.name);
 
-                        $(job).removeClass("alert-info").removeClass("alert-danger").removeClass("alert-warning");
-
                         switch(val.color) {
                             case 'blue_anime':
                                 $(job).switchClass('alert-danger alert-success alert-warning','alert-info', 'slow');
