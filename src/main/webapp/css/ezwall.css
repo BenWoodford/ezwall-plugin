@@ -112,34 +112,9 @@ body {
 
 #build-grid .job-text {
 	color: white;
-	text-shadow: 0px 2px 3px #555;
 	font-weight: bold;
 	display:inline-block;
 	vertical-align: middle;
-}
-
-#build-grid .job-glow {
-	background: white;
-}
-
-#build-grid .job-glow .job-text {
-	color: black;
-}
-
-.job-status-none {
-	background: grey;
-}
-
-.job-status-ok {
-	background: green;
-}
-
-.job-status-ko {
-	background: red;
-}
-
-.job-status-instable {
-	background: orange;
 }
 
 .form label, .form input {
