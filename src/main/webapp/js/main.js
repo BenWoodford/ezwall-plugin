@@ -3,7 +3,7 @@ $(document).ready(function() {
         if(json.jobs.length > 0) {
             $.each(json.jobs, function(index, val) {
                 if($("#dashboard #" + val.name).length == 0) {
-                    $("#dashboard").add('<div class="alert span3" id="' + val.name + '"><h2 class="job-title">' + val.name + '</h2><p class="job-status">' + val.status + '</p></div>');
+                    $("#dashboard").append('<div class="alert span3" id="' + val.name + '"><h2 class="job-title">' + val.name + '</h2><p class="job-status">' + val.status + '</p></div>');
                 }
 
                 var job = $("#dashboard #" + val.name);
