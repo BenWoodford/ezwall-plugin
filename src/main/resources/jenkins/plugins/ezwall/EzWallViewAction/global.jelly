@@ -31,7 +31,7 @@
 		<f:entry title="${%EzWall.ShowBuildNumber}" field="showBuildNumber">
 			<f:checkbox/>
 		</f:entry>
-        <f:entry title="${%EzWall.BootstrapTheme}" field="bootstrapTheme">
+        <f:entry name="bootstrapTheme" title="${%EzWall.BootstrapTheme}" field="bootstrapTheme">
             <select name="bootstrapTheme">
                 <option value="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">Standard</option>
                 <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/amelia/bootstrap.min.css">Amelia</option>
