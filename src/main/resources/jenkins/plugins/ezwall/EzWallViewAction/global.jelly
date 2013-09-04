@@ -33,18 +33,18 @@
 		</f:entry>
         <f:entry name="bootstrapTheme" title="${%EzWall.BootstrapTheme}" field="bootstrapTheme">
             <select name="bootstrapTheme">
-                <option value="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">Standard</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/amelia/bootstrap.min.css">Amelia</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cerulean/bootstrap.min.css">Cerulean</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cosmo/bootstrap.min.css">Cosmo</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cyborg/bootstrap.min.css">Cyborg</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/flatly/bootstrap.min.css">Flatly</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/journal/bootstrap.min.css">Journal</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/readable/bootstrap.min.css">Readable</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/simplex/bootstrap.min.css">Simplex</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/slate/bootstrap.min.css">Slate</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/spacelab/bootstrap.min.css">Spacelab</option>
-                <option value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/united/bootstrap.min.css">United</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">Standard</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/amelia/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/amelia/bootstrap.min.css">Amelia</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/cerulean/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cerulean/bootstrap.min.css">Cerulean</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/cosmo/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cosmo/bootstrap.min.css">Cosmo</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/cyborg/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cyborg/bootstrap.min.css">Cyborg</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/flatly/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/flatly/bootstrap.min.css">Flatly</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/journal/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/journal/bootstrap.min.css">Journal</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/readable/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/readable/bootstrap.min.css">Readable</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/simplex/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/simplex/bootstrap.min.css">Simplex</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/slate/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/slate/bootstrap.min.css">Slate</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/spacelab/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/spacelab/bootstrap.min.css">Spacelab</option>
+                <option selected="${descriptor.bootstrapTheme == '//netdna.bootstrapcdn.com/bootswatch/3.0.0/united/bootstrap.min.css'}" value="//netdna.bootstrapcdn.com/bootswatch/3.0.0/united/bootstrap.min.css">United</option>
             </select>
         </f:entry>
 	</f:section>
