@@ -21,7 +21,7 @@ $(document).ready(function() {
 
                     case 'red':
                     case 'red_anime':
-                        $(job).addClass('alert-error');
+                        $(job).addClass('alert-danger');
                         break;
 
                     case 'yellow':
