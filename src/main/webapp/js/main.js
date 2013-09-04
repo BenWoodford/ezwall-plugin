@@ -16,37 +16,37 @@ $(document).ready(function() {
 
                         switch(val.color) {
                             case 'blue_anime':
-                                $(job).addClass('alert-info', 'fast');
+                                $(job).switchClass('alert-danger alert-success alert-warning','alert-info', 'slow');
                                 $(job).find('.job-status').text("Building from Stable...");
                                 break;
 
                             case 'red_anime':
-                                $(job).addClass('alert-info', 'fast');
+                                $(job).switchClass('alert-danger alert-success alert-warning','alert-info', 'slow');
                                 $(job).find('.job-status').text("Building from Failure...");
                                 break;
 
                             case 'yellow_anime':
-                                $(job).addClass('alert-info', 'fast');
+                                $(job).switchClass('alert-danger alert-success alert-warning','alert-info', 'slow');
                                 $(job).find('.job-status').text("Building from Unstable...");
                                 break;
 
                             case 'blue':
-                                $(job).addClass('alert-success', 'fast');
+                                $(job).switchClass('alert-danger alert-warning alert-info','alert-success', 'slow');
                                 $(job).find('.job-status').text("Stable Build!");
                                 break;
 
                             case 'red':
-                                $(job).addClass('alert-danger', 'fast');
+                                $(job).switchClass('alert-info alert-success alert-warning','alert-danger', 'slow');
                                 $(job).find('.job-status').text("Build Failed");
                                 break;
 
                             case 'yellow':
-                                $(job).addClass('alert-warning', 'fast');
+                                $(job).switchClass('alert-info alert-success alert-danger','alert-warning', 'slow');
                                 $(job).find('.job-status').text("Build Unstable");
                                 break;
 
                             default:
-                                $(job).addClass('alert-warning', 'fast');
+                                $(job).switchClass('alert-info alert-success alert-danger','alert-warning', 'slow');
                                 $(job).find('.job-status').text("Unknown Status Type: " + val.color);
                                 break;
                         }
