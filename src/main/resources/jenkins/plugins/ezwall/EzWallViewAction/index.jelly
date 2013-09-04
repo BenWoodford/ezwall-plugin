@@ -15,9 +15,7 @@
 
   <body>
     <div id="ezwall-container">
-      <div class="container-fluid">
-        <div id="dashboard" class="span10">
-        </div>
+      <div class="container-fluid" id="dashboard">
       </div>
       <div id="header-display-zone"></div>
       <header id="header" class="header"></header>
