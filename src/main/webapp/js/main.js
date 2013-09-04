@@ -20,6 +20,7 @@ $(document).ready(function() {
                         break;
 
                     case 'red':
+                    case 'red_anime':
                         $(job).addClass('alert-error');
                         break;
 

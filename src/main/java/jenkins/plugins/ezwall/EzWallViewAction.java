@@ -100,7 +100,7 @@ public class EzWallViewAction implements Action, Describable<EzWallViewAction> {
 	}
 
     @Exported
-    public boolean getBootstrapTheme() {
+    public String getBootstrapTheme() {
         return getDescriptor().getBootstrapTheme();
     }
 	
