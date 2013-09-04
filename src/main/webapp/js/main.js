@@ -15,7 +15,7 @@ $(document).ready(function() {
                     case 'blue_anime':
                     case 'red_anime':
                     case 'yellow_anime':
-                        $(job).addClass('label-info', 'fast');
+                        $(job).addClass('alert-info', 'fast');
                         break;
 
                     case 'blue':
