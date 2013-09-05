@@ -46,7 +46,7 @@ public class EzWallViewAction implements Action, Describable<EzWallViewAction> {
 
 	public final static String SHORT_NAME = "ezwall";
 	
-	public final static String DISPLAY_NAME = "EzWall";
+	public final static String DISPLAY_NAME = "BootWall";
 	
 	public Api getApi() {
 		return new Api(this);
